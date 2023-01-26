@@ -1,0 +1,29 @@
+.container {
+  width: 500px;
+  height: 35px;
+  border: 1.5px solid gray;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  border-radius: 4px;
+
+}
+
+.content {
+  width: 24%;
+  border: 1.5px solid gray;
+  display: flex;
+  align-items: center;
+  padding-left: 4px;
+}
+.content-btn{
+  width: 4%;
+  /* border: 1.5px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 4px;
+  color: red;
+  background: yellow;
+  cursor: pointer;
+}
